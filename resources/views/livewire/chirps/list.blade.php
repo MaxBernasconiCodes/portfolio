@@ -18,6 +18,14 @@ on([
 ]);
 $edit = fn (Chirp $chirp) => $this->editing = $chirp;
 
+$delete = function (Chirp $chirp) {
+    $this->authorize('delete', $chirp);
+
+    $chirp->delete();
+
+    $this->getChirps();
+};
+
 ?>
 
 <div class="mt-6 bg-white shadow-sm rounded-lg divide-y">
