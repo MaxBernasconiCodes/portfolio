@@ -8,12 +8,13 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/71bddad546.js" crossorigin="anonymous"></script>
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         @livewireStyles
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased min-h-screen min-w-[95vw] m-auto p-0">
         <div class="min-h-screen bg-gray-100">
             <!-- Page Heading -->
             @if (isset($header))
@@ -24,7 +25,7 @@
                 </header>
             @endif
             <!-- Page Content -->
-            <main class="min-h-screen min-w-full bg-gray-900">
+            <main>
                 {{ $slot }}
             </main>
         </div>
