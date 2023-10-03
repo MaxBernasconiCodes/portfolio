@@ -51,7 +51,7 @@ layout('components.layouts.app');
                 class="transition-all hidden sm:grid grid-rows-6 sm:grid-cols-4 sm:col-span-3  xl:col-span-2 3xl:col-span-1 bg-black  backdrop-blur-sm divide-y outline hover:outline-gray-300">
 
                 <div class="col-span-4  relative w-full bg-black row-span-1 ">
-                    <img src="https://postimg.cc/JtqrfNC3][img]https://i.postimg.cc/JtqrfNC3/169.jpg" alt="Logo">
+                    <img src="https://postimg.cc/JtqrfNC3" alt="Logo">
                     <h1
                         class="bottom-0 col-span-4 mx-auto p-6 text-4xl font-bolder text-gray-200  text-center w-full divide-x">
                         Hi, my name is Max
