@@ -9,7 +9,7 @@ layout('components.layouts.app');
     <div
         class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-center   bg-gray-900 selection:bg-red-500 selection:text-white">
         <div
-            class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10 backdrop-blur-md bg-black  rounded-bl-xl outline  hover:outline-gray-400 transition-all">
+            class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10 backdrop-blur-md bg-black  rounded-bl-xl outline  hover:outline-gray-400 transition-all" draggable="true" onclick="console.log('click')" ondragstart="console.log('dragging')">
 
             <div class="text-white flex gap-2 justify-between items-center ">
                 <span class="flex sm:hidden flex-col justify-center items-center">
@@ -51,7 +51,7 @@ layout('components.layouts.app');
                 class="transition-all hidden sm:grid grid-rows-6 sm:grid-cols-4 sm:col-span-3  xl:col-span-2 3xl:col-span-1 bg-black  backdrop-blur-sm divide-y outline hover:outline-gray-300">
 
                 <div class="col-span-4  relative w-full bg-black row-span-1 ">
-                    <img src="{{ asset('storage/img/interface/logo169.jpg') }}" alt="Logo">
+                    <img src="https://postimg.cc/JtqrfNC3][img]https://i.postimg.cc/JtqrfNC3/169.jpg" alt="Logo">
                     <h1
                         class="bottom-0 col-span-4 mx-auto p-6 text-4xl font-bolder text-gray-200  text-center w-full divide-x">
                         Hi, my name is Max
