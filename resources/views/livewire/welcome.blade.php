@@ -62,19 +62,19 @@ layout('components.layouts.app');
                         <li class="p-2 transition-all hover:p-4 cursor-pointer select-none hover:bg-gray-800 ">
                             <a href="#link1" class="w-full transition-all  text-right flex justify-between items-center">
                                 <i class="fa-solid fa-code"></i>
-                                <p>Item_01</p>
+                                <p>Project 1</p>
                             </a>
                         </li>
                         <li class="p-2 transition-all hover:p-4 cursor-pointer select-none hover:bg-gray-800 ">
                             <a href="#lin2" class="w-full transition-all  text-right flex justify-between items-center">
                                 <i class="fa-solid fa-code"></i>
-                                <p>Item_02</p>
+                                <p>Project 2</p>
                             </a>
                         </li>
                         <li class="p-2 transition-all hover:p-4 cursor-pointer select-none hover:bg-gray-800 ">
                             <a href="#link3" class="w-full transition-all  text-right flex justify-between items-center">
                                 <i class="fa-solid fa-code"></i>
-                                <p>Item_03</p>
+                                <p>Project 3</p>
                             </a>
                         </li>
                     </ul>
